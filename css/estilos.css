@@ -1,0 +1,549 @@
+* {
+    font-family: 'Roboto', sans-serif;
+	
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin:0;
+    background-color: #0F0D22;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+/*--------------------*\
+  Cabecalho
+\*--------------------*/
+
+header{
+    width: 1280px;
+    height: 722px;  
+
+}
+
+.cabecalho{
+    margin: 0;
+    padding-top: 10px;
+
+    background-image: url(../img/fundo.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+      
+}
+
+/*@media(max-width: 749px) {
+    header{
+        width: 1280px;
+        height: 722px;  
+    
+    }
+    
+    .cabecalho{
+        margin: 0;
+        padding-top: 10px;
+    
+        background-image: url(../img/fundo.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+          
+    }
+}*/
+
+/*--------------------*\
+  MENU
+\*--------------------*/
+
+.nave_item {
+    padding-top: 20px;
+    padding-right: 86px;
+
+    list-style-type: none;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;       
+}
+
+.nav_item {
+    padding-left: 41px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a{   
+    text-decoration-line: none;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+
+
+
+
+/*--------------------*\
+  Rede social
+\*--------------------*/
+
+.meioContato {
+
+    padding-top: 150px;
+    margin-right: 50px;
+    margin-left: 1190px;
+    position:fixed;
+
+}
+
+.rede_item {
+    list-style-type: none;
+
+    transform: rotate(90deg);
+    display: flex;
+    flex-flow: row;
+    
+    margin-top: 15px;
+}
+
+.rede_text {
+    list-style-type: none;
+    margin-bottom: 20px;
+    color: #fff;
+    transform: rotate(90deg);
+
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+
+
+/*--------------------*\
+  Logo
+\*--------------------*/
+
+.logo {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+
+/*--------------------*\
+  Perfil
+\*--------------------*/
+.sobre {
+    width: 1280px;
+    height: 400px;  
+    
+    background-image: url(../img/fundoleve.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+}
+
+
+.perfil {
+    margin-left:150px;
+    margin-top: 50px;
+
+    z-index: 10;
+
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-shadow: -10px 10px 50px rgba(48, 2, 2, 0.562);
+    height: 250px;
+}
+
+.bodpont {
+    position: absolute;
+    top: 800px;
+    left: 105px;
+
+    z-index: 1;
+
+
+    height: 260px;
+    width: 260px;
+
+    border: 1px solid #fff;
+    border-radius: 100%;
+    border-color: #f0316498;
+    border-style:dotted;    
+}
+
+.bonequinho {
+    position: absolute;
+    top: 850px;
+    left: 300px;
+
+
+    height: 140px;
+    margin-top:100px;
+    margin-right: -150px;
+
+    z-index: 100;
+
+}
+
+.quemSou{
+    margin-top: 50px;
+    margin-left: 20px;
+
+    font-size:20px;    
+    text-align: center;
+
+    color: #fff;
+
+}
+
+
+.quemSou>h1 {
+    color:#f0316481;
+    font-style:'Roboto';
+    font-weight: 900;
+}
+
+.quemSou > p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    text-align:center;
+    font-size: 15px;
+}
+
+
+
+/*--------------------*\
+  Conhecimento
+\*--------------------*/
+.conhecimento {
+    width: 1280px;
+    height: 400px;  
+    
+    background-image: url(../img/fundoleve.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+}
+
+.formacao {
+    height: 300px;
+    width: 800px;    
+
+    margin-left: 60px;
+    border-radius: 15px;
+
+    background-color: #fff; 
+    box-shadow: -10px 10px 5px #f0316485; 
+}
+
+
+.info >h3 {
+    margin-bottom:0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 900;
+}
+
+.info >p {
+    margin-top:0;
+    margin-bottom:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.experiencia {
+    height: 300px;
+    width: 800px;    
+
+    margin-left: 50px;
+    margin-right: 60px;
+    border-radius: 15px;
+
+    background-color: #fff;
+    box-shadow: -10px 10px 5px #f0316485; 
+}
+
+.tableInfo >img {
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: -10px 10px 5px #f0316485; 
+}
+
+.tablepont {
+    position: absolute;
+    top: 1150px;
+    left: 40px;
+
+    z-index: -10;
+
+
+    height: 300px;
+    width: 555px;
+
+    border: 1px solid #fff;
+    border-radius: 15px;
+    border-color: #f0316485;
+    border-style:dotted;
+    
+}
+
+.tablepont2 {
+    position: absolute;
+    top: 1150px;
+    left: 650px;
+
+    z-index: -10;
+
+
+    height: 300px;
+    width: 555px;
+
+    border: 1px solid #fff;
+    border-radius: 15px;
+    border-color: #f0316485;
+    border-style:dotted;
+    
+}
+
+.titConheForm {
+    margin-top:10px;
+    margin-bottom:0;
+    margin-left: 150px;
+
+    font-size: 20px;
+    text-transform:uppercase;
+    text-shadow: 0px 2px 2px #f0316485;
+
+}
+
+.titConheExp {
+    margin-top:10px;
+    margin-bottom:0;
+    margin-left: 180px;
+
+
+    font-size: 20px;
+    text-transform:uppercase;
+    text-shadow: 0px 2px 2px #f0316485
+
+}
+
+/*--------------------*\
+  habilidades
+\*--------------------*/
+.habilidades {
+    width: 1280px;
+    height: 400px;  
+    
+    margin-top: 0px;
+    background-image: url(../img/fundoleve.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    display: flex;
+
+}
+
+
+.designer {
+    height: 300px;
+    width: 800px;    
+
+    margin-left: 50px;
+    margin-right: 60px;
+    border-radius: 15px;    
+    border: 1px solid #fff;
+
+    background-color:#0F0D22;
+    box-shadow: -10px 10px 5px #f0316444; 
+}
+
+.designer >h3 {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nome {
+    margin-bottom: 0;
+    margin-top:15px;
+
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+}
+
+.frontEnd {
+    height: 300px;
+    width: 800px;    
+
+    margin-left: 50px;
+    margin-right: 60px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+
+    background-color:#0F0D22;
+    box-shadow: -10px 10px 5px #f0316449; 
+}
+
+.frontEnd > h3 {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.socialmedia {
+    height: 300px;
+    width: 800px;    
+
+    margin-left: 50px;
+    margin-right: 60px;
+    border-radius: 15px;
+
+    background-color: #0F0D22;
+    box-shadow: -10px 10px 5px #f0316485; 
+}
+
+.socialmedia >h3 {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.progresso {
+    width: 80%;
+    display: flex;
+}
+
+.barra {
+    width: 20%;
+    height: 4px;
+    background-color: #ffffff;
+    margin-top: 8px;
+}
+
+.incompleto {
+    width: 20%;
+    height: 4px;
+    background-color: #5757571c;
+    margin-top: 8px;
+}
+
+/*--------------------*\
+  Portifolio
+\*--------------------*/
+
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(250px, auto);
+    grid-auto-flow: dense;
+    grid-column-gap: .5em;
+    grid-row-gap: .5em;
+    margin: 0px 60px 50px 50px;
+}
+
+#grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.span-2 {
+    grid-column-end: span 1;
+    grid-row-end: span 2;
+}
+
+
+/*--------------------*\
+  roda pé
+\*--------------------*/
+
+.fim {
+    width: 1280px;
+    height: 100px;  
+    
+    margin-top: 0px;
+    background-image: url(../img/fundoleve.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.logorodape >img {
+    height: 100px;
+    margin-left: 500px;
+
+}
+
+
+.nave_itemroda {
+    padding-top: 20px;
+    padding-right: 86px;
+
+    list-style-type: none;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;       
+}
+
+.nav_itemroda {
+    padding-left: 41px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.fim {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*--------------------*\
+  contato
+\*--------------------*/
+
+.contato {
+    height: 300px;
+    width: 800px;    
+
+    margin-left: 250px;
+    margin-top: 150px;
+    padding-left: 50px;
+    border-radius: 15px;    
+    border: 1px solid #fff;
+
+    background-color:#0F0D22;
+    box-shadow: -10px 10px 5px #f0316444; 
+}
+
+.contato h1 {
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+}
+.contato h2 {
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+}
